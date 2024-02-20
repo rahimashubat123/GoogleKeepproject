@@ -1,0 +1,71 @@
+ * {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "customFont";
+}
+.page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 30em;
+  height: 39em;
+  background-color: white;
+  position: relative;
+  border-radius: 1em;
+  box-shadow: 0 0.188em 1.55em rgb(156, 156, 156);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 50px auto; /* Center the container horizontally with auto margins */
+    padding: 30px;
+}
+
+ .custom-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+} 
+ .custom-button:hover {
+  transform: scale(1.25);
+}
+  .UP input[type="text"],
+input[type="password"] {
+  width: 115%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  /* margin-bottom: 100px; */
+    }     
+
+    .UP input[type="text"],
+input[type="Email"] {
+  width: 115%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}    
+ .form-container h2 {
+  font-size: 24px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 40px;
+} 
+ .custom {
+  text-align: center;
+  margin-top: 15px;
+}
+.link {
+  padding-top: 60px;
+} 
